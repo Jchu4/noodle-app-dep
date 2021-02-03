@@ -1,0 +1,56 @@
+Technical Review  ---------
+
+a) What part of the project went well, technically? Give at least one link to your repo as an example.
+
+  - Ensuring the base game is functioning by focusing on the calcHandScore() function.
+  
+  - Code flows almost linearly from top to bottom.
+
+b) What part the project was a struggle, technically? Give at least one link to your repo as an example.
+
+  - Decompose the functions for HTML elements as I am still trying to understand when calling appendChild() affects the layout.
+
+  - Finding a way to "tether" HTML elements & JS objects (like we did for Match Game)
+
+c) What technical adjustments would you make for the next project? Why?
+
+  - Would try to simplify code at every juncture possible so as to decompose certain blocks of code so as to be able to make changes/edits/tests more easily. 
+
+
+
+
+
+Process Review  ---------
+a) What in the approach and process during this project went well?
+
+  - Tackling the first things first.
+
+
+b) What in the approach and process during this project did not go well?
+
+  - Flip cards (HTML) was not planned well in accordance to JS Objects.
+  (there were ducplicates of my HTML element.)
+
+
+c) What would you change in your process and approach in the next project? Why?
+
+  - Would ensure front-end elements are all done up first before including any animation/interaction with the respective elements.
+
+
+   Notes:
+  - Can use anonymous functions for my EventListeners.
+  - HTML Elements are duplicated
+    - To tackle this in future, have a key to the HTML element, like an ID.
+    - Think of the ID as a key - call the key, you get the data.
+  - Decompose createDeck function outside of initGame()
+    - Nested functions  (should be outside) eg. creatHandElement
+  - Do not wait too long before you refactor.
+    - Once it works for the context is in, can move on.
+
+  Summary:
+  - Having a high level approach 
+    - Creating your helper functions & what it wants to done
+  - Write out the skeleton first 
+  - Then implement the helper functions
+  - Comments & naming are good
+  - Expression of the logic of calcHandScore was good (there is a hierarchy of bottom to top that makes it more understandable)
