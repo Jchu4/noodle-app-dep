@@ -1,6 +1,6 @@
 import { createServer } from 'http';
 import { readFile } from 'fs';
-import { extname } from 'path';
+import * as path from 'path';
 
 const PORT = process.argv[2];
 
@@ -31,7 +31,7 @@ const whenIncomingRequest = (request, response) => {
         '.wasm': 'application/wasm'
     };
 
-  let contentType = mimeTypes[extname] || 'application/octet-stream';
+  let contentType = mimeTypes[extnName] || 'application/octet-stream';
 
   readFile(filePath, (err, content) => {
     if (err) {
