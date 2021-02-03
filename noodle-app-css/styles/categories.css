@@ -1,0 +1,31 @@
+#my-brand {
+  background-color: #ffc93c;
+}
+
+h2 {
+  padding: 20px;
+  color: #07689f;
+  text-align: center;
+}
+
+.card {
+  margin: 5px auto;
+  width: 300px;
+}
+
+@media (min-width: 970px) {
+  .card {
+    margin: 5px auto;
+    width: 520px;
+  }
+}
+
+#chicken-cards {
+  margin: 5px auto;
+  text-align: center;
+}
+
+#vege-cards {
+  margin: 5px auto;
+  text-align: center;
+}

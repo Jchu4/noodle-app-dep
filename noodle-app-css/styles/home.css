@@ -1,0 +1,57 @@
+#my-brand {
+  background-color: #ffc93c;
+}
+
+h2 {
+  padding: 20px;
+  color: rgb(7, 104, 159);
+  text-align: center;
+}
+
+@media (min-width: 970px) {
+  h2 {
+    z-index: 100;
+    position: absolute;
+    color: #ffffff;
+    font-size: 150px;
+    font-weight: bold;
+    left: 37%;
+    top: 150px;
+    text-shadow: 2px 2px #5c5c5c;
+  }
+
+  h2 span {
+    background-color: rgba(7, 104, 159, 0.4);
+    padding: 10px 20px;
+    letter-spacing: 1px;
+  }
+}
+
+/* Noodle Recipes */
+#noodles {
+  text-align: center;
+  padding: 25px;
+}
+
+#vegetarian-noodles {
+  padding: 10px;
+}
+
+#chicken-noodles {
+  padding: 10px;
+}
+
+/* Categories Recipes */
+
+#categories {
+  text-align: center;
+  padding: 25px;
+}
+
+#vegetarian-cat {
+  padding: 10px;
+}
+
+#chicken-cat {
+  padding: 10px;
+}

@@ -1,0 +1,25 @@
+{
+  "name": "file-server-example-swe1",
+  "version": "1.0.0",
+  "description": "# basic-node-swe1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rocketacademy/file-server-example-swe1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rocketacademy/file-server-example-swe1/issues"
+  },
+  "homepage": "https://github.com/rocketacademy/file-server-example-swe1#readme",
+  "dependencies": {
+    "eslint": "^7.12.1",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.1"
+  }
+,"type":"module"}

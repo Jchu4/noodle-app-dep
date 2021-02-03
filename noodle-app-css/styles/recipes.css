@@ -1,0 +1,56 @@
+#my-brand {
+  background-color: #ffc93c;
+}
+
+#cover-img {
+  max-height: 80%;
+  width: 100%;
+  margin: 0px auto;
+}
+
+h2 {
+  padding: 15px;
+  color: #07689f;
+  text-align: center;
+}
+
+h5 {
+  text-align: center;
+  padding: 0px 15px;
+}
+
+h6 {
+  font-style: italic;
+  font-weight: lighter;
+  color: rgba(255, 200, 61, 80%);
+  text-align: center;
+}
+
+ul {
+  display: table;
+  margin: 0 auto;
+}
+
+ol {
+  display: table;
+  margin: 0 auto;
+  width: 90%;
+}
+
+@media (min-width: 768px) {
+  ol {
+    display: table;
+    margin: 0 auto;
+    width: 55%;
+  }
+
+  li {
+    padding: 1px 5px;
+  }
+}
+
+.bottom-link {
+  padding: 40px;
+  text-align: right;
+  right: 10px;
+}
