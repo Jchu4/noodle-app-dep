@@ -31,7 +31,7 @@ const whenIncomingRequest = (request, response) => {
         '.wasm': 'application/wasm'
     };
 
-  let contentType = mimeTypes[extnName] || 'application/octet-stream';
+  let contentType = mimeTypes[extName] || 'application/octet-stream';
 
   readFile(filePath, (err, content) => {
     if (err) {
