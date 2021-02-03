@@ -1,0 +1,14 @@
+#cover-img {
+  max-width: 100%;
+}
+
+div h1,
+h4 {
+  color: white;
+  padding: 20px;
+}
+
+.carousel-caption {
+  top: 0;
+  bottom: auto;
+}
