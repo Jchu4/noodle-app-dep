@@ -2,7 +2,6 @@ import { createServer } from 'http';
 import { readFile } from 'fs';
 
 const PORT = process.argv[2];
-const HOSTNAME = '13.212.193.94';
 
 const whenIncomingRequest = (request, response) => {
   console.log('Request URL: ', request.url);
@@ -15,6 +14,4 @@ const whenIncomingRequest = (request, response) => {
   });
 };
 
-createServer(whenIncomingRequest).listen(PORT, HOSTNAME, () => {
-  console.log(`HTTP Server listening at http://${hostname}:${port}/`);
-});
+createServer(whenIncomingRequest).listen(PORT);
