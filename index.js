@@ -9,7 +9,7 @@ const whenIncomingRequest = (request, response) => {
 
   let filePath = '.' + request.url;
   if (filePath === './') {
-    filePath = '/noodle-app-css/home.html';
+    filePath = './noodle-app-css/home.html';
   }
 
   let extName = String(path.extname(filePath)).toLowerCase();
@@ -36,7 +36,7 @@ const whenIncomingRequest = (request, response) => {
   readFile(filePath, (err, content) => {
     if (err) {
       if (err.code == 'ENOENT') {
-        readFile("/noodle-app-css/404.html", (err, content) => {
+        readFile("../noodle-app-css/404.html", (err, content) => {
           response.writeHead(404, { 'Content-Type' : 'text/html' });
           response.end(content, 'utf-8');
         });
