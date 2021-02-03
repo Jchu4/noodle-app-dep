@@ -36,8 +36,8 @@ const whenIncomingRequest = (request, response) => {
   readFile(filePath, (err, content) => {
     if (err) {
       if (err.code == 'ENOENT') {
-        readFile("../noodle-app-css/404.html", (err, content) => {
-          response.writeHead(404, { 'Content-Type' : 'text/html' });
+        readFile("./404.html", (err, content) => {
+          response.writeHead(404, { 'Content-Type' : contentType });
           response.end(content, 'utf-8');
         });
       }
